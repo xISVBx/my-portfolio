@@ -1,0 +1,75 @@
+body{
+    background-color: #ECF2F8;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+.container{
+    width: 82%;
+}
+.titulo{
+    font-weight: 600;
+    color: #385076;
+}
+nav{
+    background-color: #DBE5EF;
+    border-radius: 15px;
+
+}
+nav .input-field label.active i {
+    color: #8FA0B6;
+    font-size: 40px;
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px solid #9e9e9e;
+    border-radius: 15px;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 25px;
+    margin: 0 0 8px 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: border .3s, -webkit-box-shadow .3s;
+    transition: border .3s, -webkit-box-shadow .3s;
+    transition: box-shadow .3s, border .3s;
+    transition: box-shadow .3s, border .3s, -webkit-box-shadow .3s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -moz-transition: border .3s, -webkit-box-shadow .3s;
+    -ms-transition: border .3s, -webkit-box-shadow .3s;
+    -o-transition: border .3s, -webkit-box-shadow .3s;
+}
+.search-field::placeholder{
+    color: #8FA0B6;
+    font-size: 25px;
+}
+.container-users{
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container-users ul{
+    padding: 20px;
+}
+h2{
+    margin: 0;
+}
+.container-users li{
+    color: #385076;
+    font-size: 25px;
+}
+.container-users li .bold{
+    font-weight: 900;
+}
+li h2  .h2-size{
+    font-size: 2.5rem;
+}
